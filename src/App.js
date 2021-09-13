@@ -105,11 +105,11 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link id="order-pizza" to="/order">Order Here</Link>
+              <Link id="order-pizza" to="/pizza">Order Here</Link>
             </li>
           </ul>  
           <Switch>
-            <Route path="/order" component={Form}>
+            <Route path="/pizza" component={Form}>
               <Form
               values={formValues}
               toppings={toppings}

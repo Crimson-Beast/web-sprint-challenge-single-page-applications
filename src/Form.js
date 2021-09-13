@@ -18,6 +18,7 @@ import React from "react";
                 <h2>Customize Your Pizza</h2>
                 <div>
                     <label>Tells us a name for your order:</label>
+                    <p>{errors.name}</p>
                     <input id="name-input"
                         type="text"
                         name="name"
